@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		D67C3E261CC147B400975CC9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D67C3E251CC147B400975CC9 /* main.c */; };
+		D6E0F66E1CCCC79E00277658 /* MegaBlast.c in Sources */ = {isa = PBXBuildFile; fileRef = D6E0F66C1CCCC79E00277658 /* MegaBlast.c */; };
+		D6E0F6711CCCC80E00277658 /* Controller.c in Sources */ = {isa = PBXBuildFile; fileRef = D6E0F66F1CCCC80E00277658 /* Controller.c */; };
+		D6E0F6741CCCCF9B00277658 /* Timer.c in Sources */ = {isa = PBXBuildFile; fileRef = D6E0F6721CCCCF9B00277658 /* Timer.c */; };
+		D6E0F6771CCCD07B00277658 /* LEDControl.c in Sources */ = {isa = PBXBuildFile; fileRef = D6E0F6751CCCD07B00277658 /* LEDControl.c */; };
+		D6E0F67A1CCCD70200277658 /* Eeprom.c in Sources */ = {isa = PBXBuildFile; fileRef = D6E0F6781CCCD70200277658 /* Eeprom.c */; };
+		D6E0F67D1CCCD78800277658 /* ResetButton.c in Sources */ = {isa = PBXBuildFile; fileRef = D6E0F67B1CCCD78800277658 /* ResetButton.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D67C3E221CC147B400975CC9 /* Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Index; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67C3E251CC147B400975CC9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D67C3E281CC147B400975CC9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D6E0F66B1CCCC75F00277658 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		D6E0F66C1CCCC79E00277658 /* MegaBlast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MegaBlast.c; sourceTree = "<group>"; };
+		D6E0F66D1CCCC79E00277658 /* MegaBlast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MegaBlast.h; sourceTree = "<group>"; };
+		D6E0F66F1CCCC80E00277658 /* Controller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Controller.c; sourceTree = "<group>"; };
+		D6E0F6701CCCC80E00277658 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		D6E0F6721CCCCF9B00277658 /* Timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Timer.c; sourceTree = "<group>"; };
+		D6E0F6731CCCCF9B00277658 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		D6E0F6751CCCD07B00277658 /* LEDControl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LEDControl.c; sourceTree = "<group>"; };
+		D6E0F6761CCCD07B00277658 /* LEDControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDControl.h; sourceTree = "<group>"; };
+		D6E0F6781CCCD70200277658 /* Eeprom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Eeprom.c; sourceTree = "<group>"; };
+		D6E0F6791CCCD70200277658 /* Eeprom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eeprom.h; sourceTree = "<group>"; };
+		D6E0F67B1CCCD78800277658 /* ResetButton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ResetButton.c; sourceTree = "<group>"; };
+		D6E0F67C1CCCD78800277658 /* ResetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -36,8 +55,21 @@
 		D67C3E241CC147B400975CC9 /* MD Megablast */ = {
 			isa = PBXGroup;
 			children = (
+				D6E0F66C1CCCC79E00277658 /* MegaBlast.c */,
+				D6E0F66D1CCCC79E00277658 /* MegaBlast.h */,
 				D67C3E251CC147B400975CC9 /* main.c */,
+				D6E0F66B1CCCC75F00277658 /* Defines.h */,
 				D67C3E271CC147B400975CC9 /* Makefiles */,
+				D6E0F66F1CCCC80E00277658 /* Controller.c */,
+				D6E0F6701CCCC80E00277658 /* Controller.h */,
+				D6E0F6721CCCCF9B00277658 /* Timer.c */,
+				D6E0F6731CCCCF9B00277658 /* Timer.h */,
+				D6E0F6751CCCD07B00277658 /* LEDControl.c */,
+				D6E0F6761CCCD07B00277658 /* LEDControl.h */,
+				D6E0F6781CCCD70200277658 /* Eeprom.c */,
+				D6E0F6791CCCD70200277658 /* Eeprom.h */,
+				D6E0F67B1CCCD78800277658 /* ResetButton.c */,
+				D6E0F67C1CCCD78800277658 /* ResetButton.h */,
 			);
 			path = "MD Megablast";
 			sourceTree = "<group>";
@@ -175,7 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E0F6711CCCC80E00277658 /* Controller.c in Sources */,
+				D6E0F6741CCCCF9B00277658 /* Timer.c in Sources */,
+				D6E0F6771CCCD07B00277658 /* LEDControl.c in Sources */,
+				D6E0F67D1CCCD78800277658 /* ResetButton.c in Sources */,
+				D6E0F66E1CCCC79E00277658 /* MegaBlast.c in Sources */,
 				D67C3E261CC147B400975CC9 /* main.c in Sources */,
+				D6E0F67A1CCCD70200277658 /* Eeprom.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +248,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1,",
 					"__AVR_ATmega8__,",
-					"F_CPU=16000000",
+					"F_CPU=8000000",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -255,7 +293,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"__AVR_ATmega8__,",
-					"F_CPU=16000000",
+					"F_CPU=8000000",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -355,6 +393,7 @@
 				D67C3E2D1CC147B400975CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D67C3E2E1CC147B400975CC9 /* Build configuration list for PBXLegacyTarget "Build" */ = {
 			isa = XCConfigurationList;
@@ -363,6 +402,7 @@
 				D67C3E301CC147B400975CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D67C3E311CC147B400975CC9 /* Build configuration list for PBXLegacyTarget "Upload" */ = {
 			isa = XCConfigurationList;
@@ -371,6 +411,7 @@
 				D67C3E331CC147B400975CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D67C3E341CC147B400975CC9 /* Build configuration list for PBXLegacyTarget "Clean" */ = {
 			isa = XCConfigurationList;
@@ -379,6 +420,7 @@
 				D67C3E361CC147B400975CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D67C3E371CC147B400975CC9 /* Build configuration list for PBXNativeTarget "Index" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +429,7 @@
 				D67C3E391CC147B400975CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
