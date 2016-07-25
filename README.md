@@ -16,12 +16,10 @@ Left - Switch from ntsc-j -> ntsc -> pal
 Down - Reset
 </pre>
 
-
 Parts list:
 
 <pre>
-ATMEGA8A-M	Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm	
-
+ATMEGA8A-M	Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm
 CDCE913  clock generator
 TPS78233 3.3 voltage regulator	
 TPS78218 1.8 voltage regulator
