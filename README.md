@@ -17,7 +17,6 @@ Down - Reset
 </pre>
 
 Parts list:
-
 <pre>
 ATMEGA8A-M
 CDCE913 clock generator
@@ -46,4 +45,3 @@ SN74LV1T34
 1uf Capacitor
 1UF Capacitor
 <pre>
-
