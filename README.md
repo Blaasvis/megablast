@@ -39,16 +39,15 @@ SN74LV1T34
 2.2k Resistor
 10K	Resistor
 22K	Resistor
-18	Resistor	
-18	Resistor	
+18	Resistor
+18	Resistor
 
-1uf	Capacitor	
-1uf	Capacitor	
+1uf	Capacitor
+1uf	Capacitor
 100nf Capacitor	
 100nf	Capacitor
 2.2uf Capacitor
 1uf	Capacitor
-1UF	Capacitor	
-
+1UF	Capacitor
 <pre>
 

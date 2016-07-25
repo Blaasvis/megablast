@@ -20,6 +20,7 @@
 		D67C3E221CC147B400975CC9 /* Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Index; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67C3E251CC147B400975CC9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D67C3E281CC147B400975CC9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D6CA58F21D461C84003D81C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6E0F66B1CCCC75F00277658 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		D6E0F66C1CCCC79E00277658 /* MegaBlast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MegaBlast.c; sourceTree = "<group>"; };
 		D6E0F66D1CCCC79E00277658 /* MegaBlast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MegaBlast.h; sourceTree = "<group>"; };
@@ -39,6 +40,7 @@
 		D67C3E171CC147B400975CC9 = {
 			isa = PBXGroup;
 			children = (
+				D6CA58F21D461C84003D81C1 /* README.md */,
 				D67C3E241CC147B400975CC9 /* MD Megablast */,
 				D67C3E231CC147B400975CC9 /* Products */,
 			);
