@@ -10,5 +10,6 @@
 #define Eeprom_h
 
 #include <stdio.h>
-
+void writeStateToEeprom(void);
+void readStateFromEeprom(void);
 #endif /* Eeprom_h */

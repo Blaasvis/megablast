@@ -8,7 +8,10 @@
 
 #ifndef Timer_h
 #define Timer_h
-
+#define disableTimer()  TIMSK &= ~(1 << OCIE1A);
+#define startTimer() TIMSK |= (1 << OCIE1A);
 #include <stdio.h>
+void setupTimer(void);
+void setupTimer1(void);
 
 #endif /* Timer_h */

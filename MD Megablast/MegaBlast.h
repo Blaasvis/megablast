@@ -9,6 +9,8 @@
 #ifndef MegaBlast_h
 #define MegaBlast_h
 
-#include <stdio.h>
+void resetConsole(void);
+void startUp(void);
+void initIO(void);
 
 #endif /* MegaBlast_h */

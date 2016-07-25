@@ -8,7 +8,9 @@
 
 #ifndef Controller_h
 #define Controller_h
-
 #include <stdio.h>
-
+void checkController_low(void);
+void checkController_high(void);
+void handel_button_presses(uint8_t lo_buttons[],uint8_t hi_buttons[]);
+void handleWhenCombinationBeenPressed(void);
 #endif /* Controller_h */

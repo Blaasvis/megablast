@@ -10,5 +10,9 @@
 #define LEDControl_h
 
 #include <stdio.h>
+void cycleLEDs(void);
+void setLedmodes(int mode);
+void setModeOffOfLedModes(void);
+void turnOffLEDs(void);
 
 #endif /* LEDControl_h */

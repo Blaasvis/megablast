@@ -10,5 +10,7 @@
 #define ResetButton_h
 
 #include <stdio.h>
+int checkResetButton(void);
+void resetbutton(void);
 
 #endif /* ResetButton_h */

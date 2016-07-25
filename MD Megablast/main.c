@@ -1,16 +1,8 @@
 #include <stdio.h>
-#include <avr/io.h>
-#include <avr/interrupt.h>
-#include <util/delay.h>
+#include "MegaBlast.h"
 
-void initIO(void) {
-	
-}
 
 int main(void) {
-	initIO();
-
-	while (1) {
-	}
-	return 0; // never reached
+    startUp();
+    return 0; // never reached
 }
